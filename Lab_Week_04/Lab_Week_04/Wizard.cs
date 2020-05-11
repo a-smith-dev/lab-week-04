@@ -14,7 +14,9 @@ namespace Lab_Week_04
             MagicalEnergy = magicalEnergy;
             SpellNumber = spellNumber;
         }
+
         public int SpellNumber { get; set; }
+
         public override void Play()
         {
             Console.WriteLine($"Wizard Name: {Name}" +

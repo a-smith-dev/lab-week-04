@@ -7,6 +7,7 @@ namespace Lab_Week_04
     class MagicUsingCharacter : GameCharacter
     {
         public int MagicalEnergy { get; set; }
+
         public override void Play()
         {
             Console.WriteLine($"Magic Using Character Name: {Name}" +
