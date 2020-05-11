@@ -7,7 +7,9 @@ namespace Lab_Week_04
     class GameCharacter
     {
         public string Name { get; set; }
+
         public int Strength { get; set; }
+        
         public int Intelligence { get; set; }
 
         public virtual void Play()
